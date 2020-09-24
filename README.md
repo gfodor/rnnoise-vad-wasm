@@ -1,3 +1,7 @@
+# rnnoise fork
+
+This is a fork of the rnnoise project which adds the ability to do inference just on the VAD subnetwork.
+
 # rnnoise-wasm
 
 [rnnoise](https://people.xiph.org/~jm/demo/rnnoise/) noise suppression library as a WASM module.
