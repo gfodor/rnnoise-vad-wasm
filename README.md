@@ -1,10 +1,6 @@
-# rnnoise fork
+# rnnoise-vad
 
-This is a fork of the rnnoise project which adds the ability to do inference just on the VAD subnetwork.
-
-# rnnoise-wasm
-
-[rnnoise](https://people.xiph.org/~jm/demo/rnnoise/) noise suppression library as a WASM module.
+This is a fork of the rnnoise project which adds the ability to do inference just on the VAD subnetwork. This can be used to efficiently detect if a person is speaking.
 
 This repository contains the necessary utilities to build the library using a Docker build environment with Emscripten.
 
