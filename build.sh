@@ -7,7 +7,7 @@ export LDFLAGS=${OPTIMIZE}
 export CFLAGS=${OPTIMIZE}
 export CXXFLAGS=${OPTIMIZE}
 
-ENTRY_POINT="rnnoise.js"
+ENTRY_POINT="rnnoise-vad.js"
 
 if [[ `uname` == "Darwin"  ]]; then
   SO_SUFFIX="dylib"
@@ -51,7 +51,7 @@ echo "============================================="
 
   # Move artifacts
   mv $ENTRY_POINT ../dist/index.js
-  mv rnnoise.wasm ../dist/
+  mv rnnoise-vad.wasm ../dist/
 
   # Clean cluttter
   git clean -f -d
