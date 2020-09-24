@@ -41,7 +41,7 @@ echo "============================================="
     -s ENVIRONMENT="web,worker" \
     -s EXPORT_ES6=1 \
     -s USE_ES6_IMPORT_META=0 \
-    -s EXPORTED_FUNCTIONS="['_rnnoise_process_frame', '_rnnoise_init', '_rnnoise_destroy', '_rnnoise_create', '_malloc', '_free']" \
+    -s EXPORTED_FUNCTIONS="['_rnnoise_process_frame_vad', '_rnnoise_init', '_rnnoise_destroy', '_rnnoise_create', '_malloc', '_free']" \
     .libs/librnnoise.${SO_SUFFIX} \
     -o ./$ENTRY_POINT
 
